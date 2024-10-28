@@ -21,7 +21,7 @@ public class EntradaSaida {
 		System.out.println("Sua idade é: "+ idade + "Seu nome é: "+nome.toUpperCase());
 		
 		
-		 ler.close();
+		ler.close();
 
 	}
 
