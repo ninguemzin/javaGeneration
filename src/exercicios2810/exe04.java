@@ -11,7 +11,7 @@ public class exe04 {
 
 		System.out.println("Digite seu salario bruto: ");
 		n1 = ler.nextFloat();
-		
+
 		System.out.println("Digite seu adicional noturno: ");
 		n2 = ler.nextFloat();
 
@@ -21,9 +21,8 @@ public class exe04 {
 		System.out.println("Digite seus descontos: ");
 		n4 = ler.nextFloat();
 
-		
-		diferenca = (n1 * n2) - (n3 * n4); 
-		
+		diferenca = (n1 * n2) - (n3 * n4);
+
 		System.out.println("Sua média é: " + (diferenca));
 
 		ler.close();

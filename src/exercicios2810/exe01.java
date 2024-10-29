@@ -6,24 +6,24 @@ import java.util.Scanner;
 public class exe01 {
 
 	public static void main(String[] args) {
-			
-			Scanner ler = new Scanner(System.in);
 
-			float salario, abono, novo_salario;
+		Scanner ler = new Scanner(System.in);
 
-			System.out.println("Digite seu salário: ");
-			salario = ler.nextFloat();
+		float salario, abono, novo_salario;
 
-			System.out.println("Digite seu Abono? ");
-			abono = ler.nextFloat();
-			
-			novo_salario = salario + abono;
-			
-			DecimalFormat df = new DecimalFormat("0.00");
-			
-			System.out.println("Seu salário é: R$" + df.format(novo_salario));
+		System.out.println("Digite seu salário: ");
+		salario = ler.nextFloat();
 
-			 ler.close();
+		System.out.println("Digite seu Abono? ");
+		abono = ler.nextFloat();
+
+		novo_salario = salario + abono;
+
+		DecimalFormat df = new DecimalFormat("0.00");
+
+		System.out.println("Seu salário é: R$" + df.format(novo_salario));
+
+		ler.close();
 	}
 
 }

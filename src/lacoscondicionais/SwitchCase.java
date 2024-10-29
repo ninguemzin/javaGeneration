@@ -20,7 +20,7 @@ public class SwitchCase {
         case 1:
         	System.out.println("Digite o nome do seu livro favorito:");
         	nome = leia.nextLine().toUpperCase();
-        	if(nome.equals("o alquimista")) {
+        	if(nome.equals("ALQUIMISTA")) {
         		System.out.println("Esse livro é top!");
         	} else {
          		System.out.println("Não curti");
