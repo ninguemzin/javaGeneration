@@ -1,6 +1,5 @@
 package exercicios2910;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class lista2_02 {
