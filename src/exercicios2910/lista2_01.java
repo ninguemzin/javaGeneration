@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class lista2_01 {
 
 	public static void main(String[] args) {
-		int cd_pruduto, quantidade;
+		int codigo_pruduto, quantidade;
 		double total = 0.00;
 		Scanner escreva = new Scanner(System.in);
 		
@@ -21,13 +21,13 @@ public class lista2_01 {
         System.out.println("-- 6 - Suco de laranja - R$ 13.00 --");
         
         System.out.println("Digite o número do produto: ");
-        cd_pruduto = escreva.nextInt();
+        codigo_pruduto = escreva.nextInt();
         System.out.println("Digite a quantidade desse produto");
         quantidade = escreva.nextInt();
         
         DecimalFormat df = new DecimalFormat("0.00");
         
-        switch (cd_pruduto) {
+        switch (codigo_pruduto) {
         
         case 1: 
         	total = 10.00 * quantidade;
