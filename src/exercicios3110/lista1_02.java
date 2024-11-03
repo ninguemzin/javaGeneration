@@ -1,6 +1,5 @@
 package exercicios3110;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class lista1_02 {
